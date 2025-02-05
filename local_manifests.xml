@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="VotikaBr/proprietary_vendor_motorola_pstar" path="vendor/motorola/pstar" remote="github" revision="Evolution-X"/>
+    <project name="VotikaBr/android_device_motorola_pstar" path="device/motorola/pstar" remote="github" revision="Evolution-X"/>
+    <project name="VotikaBr/android_device_motorola_sm8250-common" path="device/motorola/sm8250-common" remote="github" revision="Evolution-X"/>
+    <project name="VotikaBr/android_kernel_motorola_sm8250" path="kernel/motorola/sm8250" remote="github" revision="Evolution-X"/>
+    <project name="VotikaBr/proprietary_vendor_motorola_sm8250-common" path="vendor/motorola/sm8250-common" remote="github" revision="Evolution-X"/>
+    <project name="VotikaBr/hardware_motorola" path="hardware/motorola" remote="github" revision="Evolution-X"/>
+</manifest>
