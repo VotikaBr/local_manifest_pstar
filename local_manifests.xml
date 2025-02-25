@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="VotikaBr/proprietary_vendor_motorola_pstar" path="vendor/motorola/pstar" remote="github" revision="Evolution-X"/>
-    <project name="VotikaBr/android_device_motorola_pstar" path="device/motorola/pstar" remote="github" revision="Evolution-X"/>
-    <project name="VotikaBr/android_device_motorola_sm8250-common" path="device/motorola/sm8250-common" remote="github" revision="Evolution-X"/>
-    <project name="VotikaBr/android_kernel_motorola_sm8250" path="kernel/motorola/sm8250" remote="github" revision="Evolution-X"/>
-    <project name="VotikaBr/proprietary_vendor_motorola_sm8250-common" path="vendor/motorola/sm8250-common" remote="github" revision="Evolution-X"/>
-    <project name="VotikaBr/hardware_motorola" path="hardware/motorola" remote="github" revision="v-15.0"/>
+    <remote name="votikabr" fetch="https://github.com/VotikaBr/" />
+
+    <project path="hardware/motorola" name="android_hardware_motorola" revision="15.0-niopstar" remote="votikabr" />
+    <project path="device/motorola/pstar" name="android_device_motorola_pstar" revision="15.0" remote="votikabr" />
+    <project path="kernel/motorola/sm8250" name="android_kernel_motorola_sm8250" revision="15.0" remote="votikabr" />
+    <project path="device/motorola/sm8250-common" name="android_device_motorola_sm8250-common" revision="15.0" remote="votikabr" />
+    <project path="vendor/motorola/sm8250-common" name="proprietary_vendor_motorola_sm8250-common" revision="15.0" remote="votikabr" />
+    <project path="vendor/motorola/pstar" name="proprietary_vendor_motorola_pstar" revision="15.0" remote="votikabr" />
 </manifest>
